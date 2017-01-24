@@ -10,8 +10,7 @@ Disclaimer: these images are not kept up-to-date on a frequnent schedule, so nev
  * 2016-randomquotes - a container which encapsulates a shell script which loops forever  - `docker run --rm tolleiv/misc:randomquotes`
  * 2016-elasticsearch_w_hq - a container which packs up ElasticSearch with the HQ plugin  - `docker run --rm tolleiv/misc:elasticsearch_w_hq`
  * 2016-es_sampledata - a container which wraps a Python script to load dummy data into ElasticSearch - `docker run -it tolleiv/misc:es_sampledata`
-
-
+ * 2017-puppet-spec - a small container wrapping Puppet Lint and Spec tests as described in the [blog post from Tim Sharpe](http://bombasticmonkey.com/2012/03/02/automatically-test-your-puppet-modules-with-travis-ci/)
 
 ## License
 
