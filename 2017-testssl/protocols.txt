@@ -1,0 +1,21 @@
+
+[7m Start 2017-04-21 10:33:58    -->> 10.165.98.104:443 (zabbix.aoe.lan) <<--[m
+
+ rDNS (10.165.98.104):   zabbix01.srv.hq.aoe.lan.
+ Service detected:       HTTP
+
+
+[1m[4m Testing protocols [m[1m[4m(via sockets except TLS 1.2, SPDY+HTTP2) [m
+
+[1m SSLv2               [m[1;32mnot offered (OK)[m
+[1m SSLv3               [m[1;32mnot offered (OK)[m
+[1m TLS 1               [mnot offered
+[1m TLS 1.1             [mnot offered
+[1m TLS 1.2             [m[1;32moffered (OK)[m
+[1m Version tolerance   [m[1;32mdowngraded to TLSv1.2 (OK)[m
+[1m SPDY/NPN            [mnot offered
+[1m HTTP2/ALPN          [mnot offered
+
+[7m Done 2017-04-21 10:34:02    -->> 10.165.98.104:443 (zabbix.aoe.lan) <<--[m
+
+
