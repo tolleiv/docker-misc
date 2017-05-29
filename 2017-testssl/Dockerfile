@@ -39,7 +39,7 @@ RUN buildDeps='gcc libc6-dev make perl zlib1g-dev' \
 
 # Install testssl.sh script
 ENV TESTSSL_DOWNLOAD_URL https://github.com/drwetter/testssl.sh/archive/v2.8.tar.gz
-ENV TESTSSL_DOWNLOAD_SHA1 7ad0e6ae657eb85bf9414ed2069685569e2b5417
+ENV TESTSSL_DOWNLOAD_SHA1 c679e353b51a395a87aeab4609f863697a8ea138
 
 RUN set -x \
 	&& curl -sSL "$TESTSSL_DOWNLOAD_URL" -o  testssl.tar.gz \
